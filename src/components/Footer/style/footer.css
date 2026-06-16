@@ -1,9 +1,0 @@
-.footer-app {
-    background-color: var(--cor-fundo-branco);
-    border-top: 1px solid var(--cor-borda);
-    padding: var(--espacamento-md) var(--espacamento-gd);
-    text-align: center;
-    font-size: var(--tamanho-fonte-pq);
-    color: var(--cor-texto-secundario);
-    box-shadow: var(--sombra-gd);
-}
