@@ -1,0 +1,47 @@
+.compromissos-header {
+    margin-bottom: var(--espacamento-xg);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* controle do container para não estourar na visualização e quebrar a linha */
+    flex-wrap: wrap;
+    gap: var(--espacamento-gd);
+}
+
+.compromissos-header-titulo {
+    font-size: var(--tamanho-fonte-titulo);
+    font-weight: 700;
+    color: var(--cor-primaria);
+}
+
+.compromissos-header-contador {
+    font-size: var(--tamanho-fonte-pq);
+    color: var(--cor-texto-secundario);
+    margin-top: var(--espacamento-pp);
+}
+
+.compromissos-header-contador span {
+    font-weight: 600;
+    color: var(--cor-primaria);
+}
+
+.compromissos-header-btn {
+    height: var(--altura-botao);
+    padding: 0 var(--espacamento-gd);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto-branco);
+    border: none;
+    border-radius: var(--raio-borda-pq);
+    font-size: var(--tamanho-fonte-base);
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2 ease;
+    /* um flex box que não força a quebra de linha */
+    display: inline-flex;
+    align-items: center;
+    gap: var(--espacamento-pq);
+}
+
+.compromissos-header-btn:hover {
+    background-color: var(--cor-secundaria-hover);
+}

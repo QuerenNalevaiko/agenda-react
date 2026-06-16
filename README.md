@@ -1,3 +1,26 @@
+# Necessário executar, instalar e deletar conforme indicado abaixo
+
+## Executar
+
+### `npx create-react-app agenda-react`
+
+### `cd agenda-react`
+
+### `npm install react-router-dom`
+
+### `npm install react-bootstrap bootstrap`
+
+### `npm install bootstrap-icons --save`
+
+## *colar os arquivos do zip dentro de agenda-react*
+## *deletar o /src/App.js e logo.svg*
+
+## Executar 
+
+### `npm start`
+
+
+--
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
