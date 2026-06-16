@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Necessário executar, instalar e deletar conforme indicado abaixo
 
 ## Executar
@@ -21,6 +22,8 @@
 
 
 --
+=======
+>>>>>>> 27e4d153717353e0e3f123a7e9d870bd3a11fa43
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
