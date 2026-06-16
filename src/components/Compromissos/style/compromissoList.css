@@ -1,0 +1,25 @@
+.compromisso-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--espacamento-md);
+}
+
+.compromisso-list-vazio {
+    text-align: center;
+    padding: var(--espacamento-xg);
+    color: var(--cor-texto-secundario);
+}
+
+.compromisso-list-vazio i {
+    font-size: var(--tamanho-fonte-enorme);
+    opacity: 0.3;
+    display: block;
+    margin-bottom: var(--espacamento-md);
+}
+
+.compromisso-list-vazio-titulo {
+    font-size: var(--tamanho-fonte-subtitulo);
+    font-weight: 600;
+    color: var(--cor-texto);
+    margin-bottom: var(--espacamento-xg);
+}
