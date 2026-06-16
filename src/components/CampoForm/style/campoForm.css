@@ -1,0 +1,63 @@
+.campo-form {
+    margin-bottom: var(--espacamento-md);
+}
+
+.campo-form label {
+    font-size: var(--tamanho-fonte-pq);
+    font-weight: 600;
+    color: black;
+    /* color: var(--cor-texto); */
+    margin-bottom: var(--espacamento-pp);
+    display: block;
+}
+
+.campo-form input,
+.campo-form select,
+.campo-form textarea {
+    width: 100%;
+    height: var(--altura-input);
+    padding: 0 var(--espacamento-md);
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio-borda-pq);
+    font-size: var(--tamanho-fonte-base);
+    background-color: var(--cor-fundo-input);
+    color: var(--cor-texto);
+    transition: border-color 0.2 ease, box-shadow 0.2 ease;
+}
+
+.campo-form textarea {
+    height: 5em;
+    padding: var(--espacamento-pq) var(--espacamento-md);
+    /* impede de alterar a largura */
+    resize: vertical;
+}
+
+.campo-form input:focus,
+.campo-form select:focus,
+.campo-form textarea:focus {
+    outline: none;
+    border-color: var(--cor-borda-focus);
+    box-shadow: 0 0 0 3px rgba(60, 130, 245, 0.15);
+}
+
+.campo-form input::placeholder,
+.campo-form textarea::placeholder {
+    color: var(--cor-texto-placeholder);
+}
+
+.campo-form-erro {
+    border-color: var(--cor-erro) !important;
+    box-shadow: 0 0 0 3px rgba(240, 70, 70, 0.1) !important;
+}
+
+.campo-form-erro-texto {
+    color: var(--cor-erro);
+    font-size: var(--tamanho-fonte-pq);
+    margin-top: var(--espacamento-pp);
+}
+
+.campo-form-dica {
+    color: var(--cor-texto-placeholder);
+    font-size: var(--tamanho-fonte-pq);
+    margin-top: var(--espacamento-md);
+}

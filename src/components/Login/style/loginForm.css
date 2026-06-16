@@ -1,0 +1,39 @@
+.login-form-card {
+    background-color: var(--cor-fundo-branco);
+    border-radius: var(--raio-borda-gd);
+    padding: var(--espacamento-xg);
+    width: 100%;
+    max-width: var(--largura-formulario);
+    box-shadow: var(--sombra-gd);
+}
+
+.login-form-titulo {
+    font-size: var(--tamanho-fonte-titulo);
+    font-weight: 700;
+    color: var(--cor-primaria);
+    margin-bottom: var(--espacamento-md);
+}
+
+.login-form-subtitulo {
+    font-size: var(--tamanho-fonte-pq);
+    color: var(--cor-texto-secundario);
+    margin-bottom: var(--espacamento-gd);
+}
+
+.login-form-botao {
+    width: 100%;
+    height: var(--altura-botao);
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto-branco);
+    border: none;
+    border-radius: var(--raio-borda-pq);
+    font-size: var(--tamanho-fonte-base);
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: var(--espacamento-pq);
+}
+
+.login-form-botao:hover {
+    background-color: var(--cor-primaria-hover);
+}

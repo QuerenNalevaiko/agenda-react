@@ -1,0 +1,72 @@
+/* Globais */
+
+:root {
+    /* Cores primarias */
+    --cor-primaria: #031527;
+    --cor-primaria-hover: #152545;
+    --cor-secundaria: #1062d5;
+    --cor-secundaria-hover: #316de6;
+
+    /* Cores Status */
+    --cor-sucesso: #31a101;
+    --cor-erro: #ef4f4f;
+    --cor-aviso: #663606;
+
+    /* Cores Categorias */
+    --cor-categoria-trabalho: #3b8bfb;
+    --cor-categoria-saude: #10b080;
+    --cor-categoria-pessoal: #8b5bfb;
+    --cor-categoria-outros: #647484;
+
+    /* Cores de fundo */
+    --cor-fundo: #f1f3f5;
+    --cor-fundo-branco: #ffffff;
+    --cor-fundo-input: #f8fafc;
+
+    /* Cores texto */
+    --cor-texto: #1e2e3e;
+    --cor-texto-branco: #fff;
+    --cor-texto-secundario: #647484;
+    --cor-texto-placeholder: #3f4851;
+
+    /* Cores de borda */
+    --cor-borda: #4c7cff;
+    --cor-borda-focus: #3b8bfb;
+
+    /* Espacamentos */
+    --espacamento-pp: 0.25em;
+    --espacamento-pq: 0.5em;
+    --espacamento-md: 1em;
+    --espacamento-gd: 1.5em;
+    --espacamento-gg: 2em;
+    --espacamento-xg: 3em;
+
+    /* Raios de borda */
+    --raio-borda-pq: 0.375em;
+    --raio-borda-md: 0.625em;
+    --raio-borda-gd: 1em;
+    --raio-borda-xg: 1.25em;
+
+
+    /* Sombreamento */
+    --sombra-pq: 0 1px 3px rgba(0, 0, 0, 0.06);
+    --sombra-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --sombra-gd: 0 8px 24px rgba(0, 0, 0, 0.1);
+
+    /* Tamanho de fonte */
+    --tamanho-fonte-base: 1em;
+    /* 13px */
+    --tamanho-fonte-pq: 0.8125em;
+    --tamanho-fonte-gd: 1.25em;
+    --tamanho-fonte-titulo: 1.5em;
+    --tamanho-fonte-enorme: 3em;
+    /* 17px */
+    --tamanho-fonte-subtitulo: 1.0625em;
+
+    /* Tamanho dos componentes */
+    --altura-input: 2.75em;
+    --altura-botao: 2.75em;
+    --altura-navbar: 3.75em;
+    --largura-maxima: 60em;
+    --largura-formulario: 26em;
+}

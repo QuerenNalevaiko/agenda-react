@@ -1,0 +1,9 @@
+.compromissos-page {
+    padding: var(--espacamento-xg);
+}
+
+.compromissos-page-container {
+    max-width: var(--largura-maxima);
+    margin: 0 auto;
+    padding: 0 var(--espacamento-gd);
+}
